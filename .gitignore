@@ -1,8 +1,37 @@
+# Ignore compiled Python files
+__pycache__/
 *.pyc
-.pytest_cache
-.vscode
-build
-dist
-__pycache__
-*.egg-info
-_build
+*.pyo
+*.pyd
+
+# Ignore virtual environment files (if using venv)
+venv/
+
+# Ignore IDE-specific files (e.g., for VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Ignore system-specific or editor backup files
+.DS_Store
+*.bak
+*~
+
+# Ignore logs and other generated files
+logs/
+*.log
+
+# Ignore sensitive or private data
+config.ini
+secrets.json
+
+# Ignore build and distribution directories (if using setuptools or similar tools)
+build/
+dist/
+
+# Ignore other user-specific or environment-specific files
+*.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Add other files/directories to ignore if needed
